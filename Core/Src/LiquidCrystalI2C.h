@@ -109,7 +109,7 @@ public:
 	void cursor_off();      			// alias for noCursor()
 	void setBacklight(uint8_t new_val);	// alias for backlight() and nobacklight()
 	void load_custom_character(uint8_t char_num, uint8_t *rows);// alias for createChar()
-	void printstr(const char[]);
+	void printstr(const char*);
 
 private:
 

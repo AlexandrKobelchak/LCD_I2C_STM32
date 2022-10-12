@@ -1,5 +1,13 @@
 ../Core/Src/LiquidCrystalI2C.cpp:10:1:LiquidCrystal_I2C::LiquidCrystal_I2C(I2C_HandleTypeDef, uint8_t, uint8_t, uint8_t)	16	static
-../Core/Src/LiquidCrystalI2C.cpp:19:19:HAL_StatusTypeDef LiquidCrystal_I2C::expanderWrite(uint8_t, uint8_t)	32	static
+../Core/Src/LiquidCrystalI2C.cpp:17:19:HAL_StatusTypeDef LiquidCrystal_I2C::expanderWrite(uint8_t, uint8_t)	32	static
 ../Core/Src/LiquidCrystalI2C.cpp:40:6:void LiquidCrystal_I2C::sendCommand(uint8_t)	16	static
-../Core/Src/LiquidCrystalI2C.cpp:44:6:void LiquidCrystal_I2C::sendData(uint8_t)	16	static
-../Core/Src/LiquidCrystalI2C.cpp:49:6:void LiquidCrystal_I2C::clear()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:45:6:void LiquidCrystal_I2C::sendData(uint8_t)	16	static
+../Core/Src/LiquidCrystalI2C.cpp:51:6:void LiquidCrystal_I2C::clear()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:56:6:void LiquidCrystal_I2C::noBacklight()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:61:6:void LiquidCrystal_I2C::backlight()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:67:6:void LiquidCrystal_I2C::init()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:73:6:void LiquidCrystal_I2C::begin(uint8_t, uint8_t, uint8_t)	16	static
+../Core/Src/LiquidCrystalI2C.cpp:134:6:void LiquidCrystal_I2C::home()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:139:6:void LiquidCrystal_I2C::display()	16	static
+../Core/Src/LiquidCrystalI2C.cpp:145:6:void LiquidCrystal_I2C::setCursor(uint8_t, uint8_t)	40	static
+../Core/Src/LiquidCrystalI2C.cpp:152:6:void LiquidCrystal_I2C::printstr(const char*)	16	static
